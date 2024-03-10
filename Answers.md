@@ -3,7 +3,7 @@
 * Ans:- Product is the Table of the the database where category_id is the foreign key which is store the id of the parent key which is product_category using this foreign key we can assosite all the fetures or data of the product_category in the product with the help of the foreign key we can use the data which we need to access from the product_category.
 
 2. How could you ensure that each product in the "Product" table has a valid category assigned to it?
-Ans:- Ensuring that each product in the "Product" table has a valid category assigned to it involves implementing proper data integrity constraints and validation mechanisms in your database. Here are several approaches to achieve this:
+* Ans:- Ensuring that each product in the "Product" table has a valid category assigned to it involves implementing proper data integrity constraints and validation mechanisms in your database. Here are several approaches to achieve this:
 
 * Foreign Key Constraint:
   - Create a foreign key relationship between the "Product" table and the "Category" table. This ensures that each product references a valid category.
